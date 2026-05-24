@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarya Nigade | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Aarya Nigade</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="tagline">B.Tech CSE Graduate | Full Stack Developer</p>
+      <h1>Hi, I’m <span>Aarya Nigade</span></h1>
+      <h2>I build practical software using Web Development, AI, and Blockchain.</h2>
+
+      <p class="hero-text">
+        I am passionate about creating real-world applications with full-stack development,
+        AI-powered systems, OCR verification, databases, and blockchain-based transparency.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="assets/resume.pdf" class="btn secondary-btn" download>Download Resume</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/AaryaNigade"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aarya-nigade-774a612a6/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="aaryanigade274@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Featured Project</h3>
+      <h2>Welfare Portal</h2>
+      <p>
+        Blockchain-based welfare scheme application system with OCR verification,
+        document validation, and transparent DBT transfer simulation.
+      </p>
+
+      <div class="stats">
+        <div>
+          <h4>OCR</h4>
+          <p>Verification</p>
+        </div>
+        <div>
+          <h4>Web3</h4>
+          <p>Smart Contract</p>
+        </div>
+        <div>
+          <h4>MERN</h4>
+          <p>Full Stack</p>
+        </div>
+        <div>
+          <h4>API</h4>
+          <p>Backend</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          I am a B.Tech Computer Science graduate focused on building meaningful
+          and practical software projects. I have experience in full-stack web
+          development, AI chatbot integration, OCR-based document verification,
+          MongoDB databases, REST APIs, and Solidity smart contracts.
+        </p>
+
+        <p>
+          My goal is to work as a software developer and continue building
+          applications that solve real-world problems using modern technologies.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h3>Current Focus</h3>
+        <ul>
+          <li>Full Stack Development</li>
+          <li>AI/ML Projects</li>
+          <li>Blockchain Integration</li>
+          <li>Portfolio & Internship Preparation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript, React, Next.js, Tailwind CSS</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-server"></i>
+        <h3>Backend</h3>
+        <p>Node.js, Express.js, Flask, REST APIs</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-database"></i>
+        <h3>Database</h3>
+        <p>MongoDB, MySQL, Mongoose</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-brain"></i>
+        <h3>AI / ML</h3>
+        <p>Chatbots, NLP, OCR, Sentence Transformers</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-cubes"></i>
+        <h3>Blockchain</h3>
+        <p>Solidity, Hardhat, MetaMask, Smart Contracts</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fa-solid fa-toolbox"></i>
+        <h3>Tools</h3>
+        <p>Git, GitHub, Postman, VS Code, Jupyter Notebook</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Welfare Portal</h3>
+        <p class="project-type">Full Stack + Blockchain</p>
+        <p>
+          A government welfare scheme portal with OCR-based document verification,
+          application tracking, grievance checking, and blockchain-simulated DBT transfers.
+        </p>
+
+        <div class="tech-stack">
+          <span>Next.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>Solidity</span>
+          <span>Hardhat</span>
+        </div>
+
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Roamify - AI Travel Planner</h3>
+        <p class="project-type">AI + Full Stack</p>
+        <p>
+          An AI-powered travel planning web app with destination discovery,
+          itinerary generation, chatbot assistance, and expense tracking.
+        </p>
+
+        <div class="tech-stack">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>Flask</span>
+          <span>LLM</span>
+        </div>
+
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>AI Resume Analyzer</h3>
+        <p class="project-type">AI Project</p>
+        <p>
+          An AI-based resume analysis tool that checks resume quality,
+          ATS keywords, job description matching, and improvement suggestions.
+        </p>
+
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>NLP</span>
+          <span>Flask</span>
+          <span>React</span>
+        </div>
+
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact Me</h2>
+
+    <p>
+      I am open to internships, entry-level software developer roles,
+      AI projects, and full-stack development opportunities.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:yourmail@gmail.com">
+        <i class="fa-solid fa-envelope"></i> Email
+      </a>
+
+      <a href="#">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+
+      <a href="#">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Aarya Nigade. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
